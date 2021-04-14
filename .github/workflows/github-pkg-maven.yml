@@ -9,7 +9,7 @@ jobs:
 
   build:
     name: Test stage - Unit and Integration
-    runs-on: [self-hosted, linux]
+    runs-on: [linux]
 
     steps:
     - uses: actions/checkout@v1
